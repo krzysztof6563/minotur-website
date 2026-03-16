@@ -24,7 +24,7 @@
                         <a href="https://www.facebook.com/minotur.chojnice" target="_blank">
                             <img :src="facebookSVG" alt="" />
                         </a>
-                        <a href="https://www.facebook.com/minotur.chojnice" target="_blank">
+                        <a href="https://www.instagram.com/minotur.chojnice" target="_blank">
                             <img :src="instagramSVG" alt="" />
                         </a>
                     </div>

@@ -12,7 +12,7 @@
                     <p>Najłatwiej złapać nas w jeden z poniższych sposobów:</p>
 
                     <ul>
-                        <li>E-mail: <a href="mailto:kontakt@minotur.pl">kontakt@minotur.pl</a></li>
+                        <li>E-mail: <a href="mailto:krzysztofmichalski42@gmail.com">krzysztofmichalski42@gmail.com</a></li>
                         <li>Telefon: <a href="tel:+48697111731">+48 697 111 731</a></li>
                         <li>Social media – napisz do nas na Facebooku lub Instagramie</li>
                     </ul>

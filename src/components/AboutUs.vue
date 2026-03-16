@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div>
-                    <Picture :src="imgsrc" class="w-100 rounded" />
+                    <Picture src="/images/o-minoturze.jpg" class="w-100 rounded" />
                 </div>
             </div>
         </div>
@@ -39,7 +39,6 @@
 
 <script setup>
 import Picture from "@/components/utilities/Picture.vue";
-import imgsrc from "@/assets/o-minoturze.jpg";
 import facebookSVG from "@/assets/Facebook_Logo_Primary.svg";
 import instagramSVG from "@/assets/Instagram_Glyph_Gradient.svg";
 </script>

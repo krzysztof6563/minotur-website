@@ -13,8 +13,12 @@ const props = defineProps({
     class: { type: String, default: "" },
 });
 
-let URLjpg = props.src;
-let toReplace = props.src.endsWith(".jpg") ? ".jpg" : ".png";
-let URLwebp = props.src.replace(toReplace, ".webp");
-let URLavif = props.src.replace(toReplace, ".avif");
+const base = import.meta.env.BASE_URL;
+const srcPath = props.src.startsWith("/") ? props.src.slice(1) : props.src;
+const toReplace = srcPath.endsWith(".jpg") ? ".jpg" : ".png";
+const withBase = (path) => `${base}${path}`;
+
+const URLjpg = withBase(srcPath);
+const URLwebp = withBase(srcPath.replace(toReplace, ".webp"));
+const URLavif = withBase(srcPath.replace(toReplace, ".avif"));
 </script>

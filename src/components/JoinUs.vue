@@ -4,7 +4,7 @@
             <h2>Dołącz do nas!</h2>
             <div class="grid-2x">
                 <div class="left">
-                    <Picture :src="img" alt="Dołącz do Minotura" class="w-100 rounded" />
+                    <Picture src="/images/dolacz-do-nas.jpg" alt="Dołącz do Minotura" class="w-100 rounded" />
                 </div>
 
                 <div class="right" style="display: flex; flex-direction: column; justify-content: center">
@@ -42,7 +42,6 @@
 
 <script setup>
 import Picture from "./utilities/Picture.vue";
-import img from "../assets/dolacz-do-nas.jpg";
 import statueLink from "@/assets/files/01_Regulamin_Stowarzyszenia.pdf";
 import declarationLink from "@/assets/files/02_Deklaracja_członkowska.pdf";
 import rodoLink from "@/assets/files/02_Klauzula_RODO.pdf";

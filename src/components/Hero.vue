@@ -1,6 +1,6 @@
 <template>
     <div class="hero">
-        <Picture :src="picURL" alt="Stowarzyszenie Minotur" class="w-100" />
+        <Picture src="/images/hero-stowarzyszenie-minotur.jpg" alt="Stowarzyszenie Minotur" class="w-100" />
         <div class="overlay">
             <div class="hero-text">
                 <h1 style="color: white">
@@ -13,7 +13,6 @@
 </template>
 
 <script setup>
-import picURL from "@/assets/hero-stowarzyszenie-minotur.jpg";
 import Picture from "./utilities/Picture.vue";
 </script>
 

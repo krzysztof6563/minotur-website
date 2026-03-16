@@ -25,9 +25,13 @@ import Picture from "./utilities/Picture.vue";
     img {
         width: 100%;
         height: auto;
-        aspect-ratio: 16 / 8;
+        aspect-ratio: 2 / 3;
         object-fit: cover;
         object-position: bottom;
+
+        @media screen and (min-width: 992px) {
+            aspect-ratio: 16 / 8;
+        }
     }
 
     .overlay {
@@ -40,10 +44,15 @@ import Picture from "./utilities/Picture.vue";
 
         .hero-text {
             position: absolute;
-            bottom: 5rem;
-            left: 5rem;
+            bottom: 1rem;
+            left: 1rem;
             width: 80%;
             line-height: 1.2;
+
+            @media screen and (min-width: 992px) {
+                bottom: 5rem;
+                left: 5rem;
+            }
 
             h1::first-line {
                 font-size: 1.75em;

@@ -11,7 +11,7 @@
                         towarzyski, gromadzi wokół siebie pełno ludzi chcących szerzyć jego idee i wspólną zabawę.
                     </p>
                     <p>
-                        W rzeczywistości <strong>Minotur</strong>o także stowarzyszenie zrzeszające miłośników
+                        W rzeczywistości <strong>Minotur</strong> to także stowarzyszenie zrzeszające miłośników
                         fantastyki, gier planszowych, RPG, popkultury oraz innych kreatywnych czynności. Organizujemy
                         spotkania i wydarzenia związane z powyższą tematyką ale i również inne atrakcje – wszystko po to
                         aby Chojnice i ich okolice byłym miejscem gdzie można miło i kreatywnie spędzić czas.

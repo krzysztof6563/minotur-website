@@ -52,6 +52,7 @@ h1 {
     font-size: 4rem;
     letter-spacing: -1.68px;
     margin: 32px 0;
+
     @media (max-width: 1024px) {
         font-size: 36px;
         margin: 20px 0;
@@ -59,14 +60,23 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 118%;
     letter-spacing: -0.24px;
-    margin: 0 0 4rem;
+    margin: 0 0 2rem;
+
+    @media screen and (min-width: 992px) {
+        margin: 0 0 4rem;
+        font-size: 3rem;
+    }
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 992px) {
+        font-size: 1.75rem;
+    }
 }
 
 p {
@@ -86,7 +96,7 @@ strong {
 }
 
 .container {
-    width: 98vw;
+    width: 90vw;
     margin-inline: auto;
 
     @media screen and (min-width: 768px) {
@@ -118,7 +128,11 @@ strong {
 }
 
 .section-pad {
-    padding-block: 8rem;
+    padding-block: 6rem;
+
+    @media screen and (min-width: 992px) {
+        padding-block: 8rem;
+    }
 }
 
 .rounded {
@@ -193,5 +207,15 @@ table.fc-scrollgrid {
                 border-bottom-right-radius: var(--radius);
             }
         }
+    }
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+    @media screen and (min-width: 992px) {
+        flex-wrap: nowrap;
     }
 }

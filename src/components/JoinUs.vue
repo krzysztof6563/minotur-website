@@ -9,7 +9,7 @@
 
                 <div class="right" style="display: flex; flex-direction: column; justify-content: center">
                     <p>
-                        <span style="font-weight: bold; font-size: 1.5em">CChcesz dołączyć do Minotura?</span
+                        <span style="font-weight: bold; font-size: 1.5em">Chcesz dołączyć do Minotura?</span
                         ><br /><br />
                         Jeśli fantastyka, gry, popkultura i wspólne organizowanie wydarzeń jest Ci bliskie, zapraszamy
                         do naszego stowarzyszenia.
@@ -29,7 +29,7 @@
                     <p>Po otrzymaniu dokumentów odezwiemy się do Ciebie z informacją o dalszych etapach.</p>
 
                     <p style="color: white">Pobierz dokumenty:</p>
-                    <div class="buttons" style="display: flex; gap: 1rem">
+                    <div class="buttons" style="display: flex; flex-wrap: wrap; gap: 1rem">
                         <a class="btn btn-primary" :href="statueLink" target="_blank">regulamin stowarzyszenia</a>
                         <a class="btn btn-primary" :href="declarationLink">deklaracja członkowska</a>
                         <a class="btn btn-primary" :href="rodoLink" target="_blank">klauzula RODO</a>

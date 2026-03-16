@@ -45,6 +45,11 @@ header {
 }
 
 nav {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
     ul {
         display: flex;
         gap: 1rem;

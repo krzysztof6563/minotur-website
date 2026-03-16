@@ -5,7 +5,9 @@
             <div class="hero-text">
                 <h1 style="color: white">
                     Minotur <br />
-                    Chojnickie Stowarzyszenie Fantastyki i Popkultury
+                    <span style="text-transform: lowercase; font-size: 0.9em">
+                        Chojnickie Stowarzyszenie Fantastyki i Popkultury
+                    </span>
                 </h1>
             </div>
         </div>

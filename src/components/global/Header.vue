@@ -2,7 +2,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img :src="logoURL" alt="Minotur - Chojnickie Stowarzyszenie Fantastyki i Popkultury" id="logo" />
+                <!-- <img :src="logoURL" alt="Minotur - Chojnickie Stowarzyszenie Fantastyki i Popkultury" id="logo" /> -->
             </div>
 
             <nav id="main-menu">

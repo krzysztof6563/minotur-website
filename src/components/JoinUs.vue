@@ -9,10 +9,10 @@
 
                 <div class="right" style="display: flex; flex-direction: column; justify-content: center">
                     <p>
-                        <span style="font-weight: bold; font-size: 1.5em">Chcesz zostać częścią Minotura?</span
+                        <span style="font-weight: bold; font-size: 1.5em">CChcesz dołączyć do Minotura?</span
                         ><br /><br />
-                        Jeśli fantastyka, gry, popkultura i wspólne tworzenie wydarzeń są Ci bliskie, zapraszamy do
-                        naszego stowarzyszenia.
+                        Jeśli fantastyka, gry, popkultura i wspólne organizowanie wydarzeń jest Ci bliskie, zapraszamy
+                        do naszego stowarzyszenia.
                     </p>
 
                     <p>Dołączenie jest proste:</p>

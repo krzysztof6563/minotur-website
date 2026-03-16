@@ -3,7 +3,7 @@
         <div class="container section-pad">
             <h2>Nadchodzące wydarzenia</h2>
             <div class="grid-2x">
-                <div class="list">
+                <div class="list" v-if="events.length > 0">
                     <div class="event" v-for="event in events">
                         <h3 style="margin-top: 0">{{ event.name }}</h3>
                         <div>
@@ -29,6 +29,9 @@
                         </div>
                         <hr />
                     </div>
+                </div>
+                <div class="empty" v-else>
+                    <h3 style="margin-top: 0">Brak aktualnie zaplanowanych wydarzeń</h3>
                 </div>
                 <div class="calendar">
                     <FullCalendar :options="calendarOptions" />

@@ -3,10 +3,10 @@
         <div class="container section-pad">
             <div class="grid-2x">
                 <div style="max-width: 800px">
-                    <h2>Skontaktuj się z nami</h2>
+                    <h2>Skontaktuj się z nami</h2>
                     <p>
                         Masz pytanie? Chcesz dołączyć do stowarzyszenia, zorganizować wydarzenie albo po prostu
-                        porozmawiać o fantastyce, RPG lub planszówkach?
+                        porozmawiać?
                     </p>
 
                     <p>Najłatwiej złapać nas w jeden z poniższych sposobów:</p>

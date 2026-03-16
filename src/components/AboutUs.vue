@@ -5,16 +5,16 @@
                 <div class="about-us-text">
                     <h2>Ale czym właściwie jest Minotur?</h2>
                     <p>
-                        <strong>Minotur</strong> <em>[mino-tur]</em> – mityczne stworzenie spotykane najczęściej w
-                        bibliotekach, przy stołach z planszówkami i w salach pełnych graczy RPG. Żywi się dobrą fabułą,
-                        pizzą i kreatywną energią. Z natury towarzyski, gromadzi wokół siebie ludzi, którzy lubią
-                        fantastykę, gry i wspólne tworzenie historii.
+                        <strong>Minotur</strong> <em>[mino-tur]</em> – mityczne stworzenie spotykane na ziemiach
+                        pomorskich przy stołach z planszówkami, w salach erpegowych oraz przy klawiaturach i padach.
+                        Jego głównymi składnikami odżywczymi są historie, pizza i kreatywna energia. Z natury
+                        towarzyski, gromadzi wokół siebie pełno ludzi chcących szerzyć jego idee i wspólną zabawę.
                     </p>
                     <p>
-                        W rzeczywistości <strong>Minotur</strong> to także stowarzyszenie zrzeszające miłośników
-                        fantastyki, gier planszowych, RPG, popkultury i kreatywnej rozrywki. Organizujemy spotkania,
-                        sesje, wydarzenia i inne atrakcje – wszystko po to, żeby w Chojnicach i okolicy było więcej
-                        miejsca na dobrą zabawę, wyobraźnię i wspólne przygody.
+                        W rzeczywistości <strong>Minotur</strong>o także stowarzyszenie zrzeszające miłośników
+                        fantastyki, gier planszowych, RPG, popkultury oraz innych kreatywnych czynności. Organizujemy
+                        spotkania i wydarzenia związane z powyższą tematyką ale i również inne atrakcje – wszystko po to
+                        aby Chojnice i ich okolice byłym miejscem gdzie można miło i kreatywnie spędzić czas.
                     </p>
                     <p>
                         Naturalne środowisko Minotura znajduje się w dwóch miejscach. Wybierz jedną z ikon poniżej, aby

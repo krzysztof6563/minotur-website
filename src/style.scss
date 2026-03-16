@@ -1,0 +1,194 @@
+@use "fonts.scss";
+
+:root {
+    --text: #f3f4f6;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --code-bg: #1f2028;
+    --accent: #f2d38aff;
+    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent-border: rgba(192, 132, 252, 0.5);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow: rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+    --textFont: Roboto, sans-serif;
+    --headingFont: "Cinzel", Roboto, sans-serif;
+    --altSectionBg: hsl(230deg 14.06% 25.1%);
+    --fc-button-bg-color: var(--accent);
+
+    letter-spacing: 0.18px;
+    color-scheme: light dark;
+    color: var(--text);
+    background: var(--bg);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    font-family: var(--textFont);
+    line-height: 1.5;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--headingFont);
+    font-weight: 700;
+    color: var(--accent);
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: -1.68px;
+    margin: 32px 0;
+    @media (max-width: 1024px) {
+        font-size: 36px;
+        margin: 20px 0;
+    }
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 118%;
+    letter-spacing: -0.24px;
+    margin: 0 0 4rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    margin: 0 0 1rem;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+em {
+    font-style: oblique;
+}
+
+em,
+b,
+strong {
+    color: var(--accent);
+}
+
+.container {
+    width: 98vw;
+    margin-inline: auto;
+
+    @media screen and (min-width: 768px) {
+        width: 730px;
+    }
+
+    @media screen and (min-width: 992px) {
+        width: 960px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1140px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 1540px;
+    }
+}
+
+.grid-2x {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    @media screen and (min-width: 992px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+.section-pad {
+    padding-block: 8rem;
+}
+
+.rounded {
+    border-radius: 1rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.card {
+    padding: 2rem;
+    border: 1px solid white;
+
+    background: rgb(255 255 255 / 0.075);
+}
+
+#app {
+    section:nth-child(even) {
+        background: var(--altSectionBg);
+    }
+}
+
+a {
+    color: var(--accent);
+}
+
+.btn {
+    padding: 0.75rem 1rem;
+    display: block;
+    border-radius: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    border: 1px solid transparent;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &.btn-primary {
+        color: var(--bg);
+        background: var(--accent);
+
+        &:hover {
+            color: var(--accent);
+            background: var(--bg);
+            border: 1px solid var(--accent);
+        }
+    }
+}
+
+table.fc-scrollgrid {
+    --radius: 1rem;
+    border-radius: var(--radius);
+
+    thead.fc-scrollgrid-section-header > th {
+        border-top-right-radius: ar(--radius);
+    }
+
+    tbody {
+        tr:last-child {
+            td:first-child {
+                border-bottom-left-radius: var(--radius);
+            }
+            td:last-child {
+                border-bottom-right-radius: var(--radius);
+            }
+        }
+    }
+}

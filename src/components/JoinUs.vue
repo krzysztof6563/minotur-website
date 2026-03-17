@@ -22,7 +22,7 @@
                         <li>Uzupełnij wymaganą klauzule RODO.</li>
                         <li>
                             Wyślij komplet dokumentów na adres:
-                            <a href="mailto:kontakt@minotur.pl">kontakt@minotur.pl</a>
+                            <a href="mailto:krzysztofmichalski42@gmail.com">krzysztofmichalski42@gmail.com</a>
                         </li>
                     </ol>
 

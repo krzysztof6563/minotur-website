@@ -5,7 +5,7 @@
             <div class="hero-text">
                 <h1 style="color: white">
                     Minotur <br />
-                    <span style="text-transform: lowercase; font-size: 0.9em">
+                    <span style="text-transform: lowercase; font-size: 0.8em">
                         Chojnickie Stowarzyszenie Fantastyki i Popkultury
                     </span>
                 </h1>
@@ -44,13 +44,13 @@ import Picture from "./utilities/Picture.vue";
 
         .hero-text {
             position: absolute;
-            bottom: 1rem;
+            bottom: 2rem;
             left: 1rem;
             width: 80%;
             line-height: 1.2;
 
             @media screen and (min-width: 992px) {
-                bottom: 5rem;
+                bottom: 7rem;
                 left: 5rem;
             }
 

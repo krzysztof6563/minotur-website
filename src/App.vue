@@ -16,5 +16,4 @@ import JoinUs from "./components/JoinUs.vue";
     <JoinUs />
     <Contact />
     <Footer />
-    <script data-goatcounter="https://minotur.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </template>

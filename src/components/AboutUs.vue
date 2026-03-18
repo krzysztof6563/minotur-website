@@ -21,11 +21,11 @@
                         je odkryć.
                     </p>
                     <div class="d-flex logos">
-                        <a href="https://www.facebook.com/minotur.chojnice" target="_blank">
-                            <img :src="facebookSVG" alt="" />
+                        <a href="https://www.facebook.com/minotur.chojnice" target="_blank" aria-label="Facebook">
+                            <img :src="facebookSVG" alt="Facebook" />
                         </a>
-                        <a href="https://www.instagram.com/minotur.chojnice" target="_blank">
-                            <img :src="instagramSVG" alt="" />
+                        <a href="https://www.instagram.com/minotur.chojnice" target="_blank" aria-label="Instagram">
+                            <img :src="instagramSVG" alt="Instagram" />
                         </a>
                     </div>
                 </div>

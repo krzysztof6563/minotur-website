@@ -1,23 +1,24 @@
 <template>
     <header>
         <div class="container">
-            <div class="logo">
+            <a class="logo" href="/">
                 <img :src="logoURL" alt="Minotur - Chojnickie Stowarzyszenie Fantastyki i Popkultury" id="logo" />
-            </div>
+            </a>
 
-            <button class="menu-toggle" :class="{ open: isMenuOpen }" type="button" :aria-expanded="isMenuOpen"
-                aria-controls="mobile-menu" @click="toggleMenu">
+            <button
+                class="menu-toggle"
+                :class="{ open: isMenuOpen }"
+                type="button"
+                :aria-expanded="isMenuOpen"
+                aria-controls="mobile-menu"
+                @click="toggleMenu"
+            >
                 <span class="sr-only">Otwórz menu</span>
                 <span aria-hidden="true" class="menu-icon"></span>
             </button>
 
             <nav id="main-menu">
-                <ul>
-                    <li><a href="#o-nas">O nas</a></li>
-                    <li><a href="#wydarzenia">Wydarzenia</a></li>
-                    <li><a href="#członkostwo">Członkostwo</a></li>
-                    <li><a href="#kontakt">Kontakt</a></li>
-                </ul>
+                <NavLinks />
             </nav>
         </div>
 
@@ -28,12 +29,7 @@
                 <span class="sr-only">Zamknij menu</span>
                 <span aria-hidden="true" class="close-icon"></span>
             </button>
-            <ul>
-                <li><a href="#o-nas" @click="closeMenu">O nas</a></li>
-                <li><a href="#wydarzenia" @click="closeMenu">Wydarzenia</a></li>
-                <li><a href="#członkostwo" @click="closeMenu">Członkostwo</a></li>
-                <li><a href="#kontakt" @click="closeMenu">Kontakt</a></li>
-            </ul>
+            <NavLinks :on-link-click="closeMenu" />
         </nav>
     </header>
 </template>
@@ -41,6 +37,7 @@
 <script setup>
 import logoURL from "@/assets/logo.svg";
 import { ref } from "vue";
+import NavLinks from "./NavLinks.vue";
 
 const isMenuOpen = ref(false);
 
@@ -53,7 +50,7 @@ const closeMenu = () => {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 header {
     padding-block: 0.5rem;
     background: hsl(231, 14%, 25%);
@@ -139,7 +136,9 @@ header {
         width: 100%;
         height: 2px;
         background: currentColor;
-        transition: transform 0.2s ease, top 0.2s ease;
+        transition:
+            transform 0.2s ease,
+            top 0.2s ease;
     }
 
     &::before {

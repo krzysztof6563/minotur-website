@@ -1,6 +1,11 @@
 <template>
     <div class="hero">
-        <Picture src="/images/hero-stowarzyszenie-minotur.jpg" alt="Stowarzyszenie Minotur" class="w-100" />
+        <Picture
+            src="/assets/images/hero-stowarzyszenie-minotur.webp"
+            alt="Stowarzyszenie Minotur"
+            class="w-100"
+            sizes="100vw"
+        />
         <div class="overlay">
             <div class="hero-text">
                 <h1 style="color: white">

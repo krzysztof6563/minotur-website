@@ -1,24 +1,31 @@
 <template>
     <picture>
-        <source :srcset="URLavif" type="image/avif" />
-        <source :srcset="URLwebp" type="image/webp" />
-        <img :src="URLjpg" :alt="props.alt" :class="class" />
+        <source v-if="image.avif" :srcset="image.avif" type="image/avif" :sizes="sizesAttr" />
+        <source v-if="image.webp" :srcset="image.webp" type="image/webp" :sizes="sizesAttr" />
+        <img
+            :src="image.src"
+            :alt="props.alt"
+            :class="class"
+            :loading="props.loading"
+            :decoding="props.decoding"
+            :sizes="sizesAttr"
+        />
     </picture>
 </template>
 
 <script setup>
+import { computed } from "vue";
+import { getResponsiveImage } from "@/assets/images/responsive";
+
 const props = defineProps({
     src: { type: String, required: true },
     alt: { type: String, default: "" },
     class: { type: String, default: "" },
+    sizes: { type: String, default: "" },
+    loading: { type: String, default: "lazy" },
+    decoding: { type: String, default: "async" },
 });
 
-const base = import.meta.env.BASE_URL;
-const srcPath = props.src.startsWith("/") ? props.src.slice(1) : props.src;
-const toReplace = srcPath.endsWith(".jpg") ? ".jpg" : ".png";
-const withBase = (path) => `${base}${path}`;
-
-const URLjpg = withBase(srcPath);
-const URLwebp = withBase(srcPath.replace(toReplace, ".webp"));
-const URLavif = withBase(srcPath.replace(toReplace, ".avif"));
+const sizesAttr = props.sizes || undefined;
+const image = computed(() => getResponsiveImage(props.src));
 </script>

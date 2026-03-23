@@ -30,7 +30,11 @@
                     </div>
                 </div>
                 <div>
-                    <Picture src="/images/o-minoturze.jpg" class="w-100 rounded" />
+                    <Picture
+                        src="/assets/images/o-minoturze.webp"
+                        class="w-100 rounded"
+                        sizes="(min-width: 992px) 50vw, 100vw"
+                    />
                 </div>
             </div>
         </div>

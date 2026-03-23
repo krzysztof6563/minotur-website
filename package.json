@@ -1,22 +1,27 @@
 {
   "name": "minotur-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite dev",
+    "dev_host": "vite dev --host",
+    "build": "vite-ssg build",
+    "preview": "vite-ssg preview"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
     "@fullcalendar/daygrid": "^6.1.20",
     "@fullcalendar/vue3": "^6.1.20",
-    "vue": "^3.5.30"
+    "vue": "^3.5.30",
+    "vue-easy-lightbox": "^1.19.0",
+    "vue-router": "^5.0.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.5",
     "sass-embedded": "^1.98.0",
-    "vite": "^8.0.0"
+    "vite": "^8.0.0",
+    "vite-imagetools": "^10.0.0",
+    "vite-ssg": "^28.3.0"
   }
 }

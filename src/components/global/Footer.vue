@@ -18,6 +18,7 @@
 footer {
     padding-block: 2rem;
     background: hsl(231.43deg 13.73% 5%);
+    margin-top: auto;
 }
 
 .text-right {

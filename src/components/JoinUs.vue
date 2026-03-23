@@ -4,7 +4,12 @@
             <h2>Dołącz do nas!</h2>
             <div class="grid-2x">
                 <div class="left">
-                    <Picture src="/images/dolacz-do-nas.jpg" alt="Dołącz do Minotura" class="w-100 rounded" />
+                    <Picture
+                        src="/assets/images/dolacz-do-nas.webp"
+                        alt="Dołącz do Minotura"
+                        class="w-100 rounded"
+                        sizes="(min-width: 992px) 50vw, 100vw"
+                    />
                 </div>
 
                 <div class="right" style="display: flex; flex-direction: column; justify-content: center">
@@ -22,7 +27,7 @@
                         <li>Uzupełnij wymaganą klauzule RODO.</li>
                         <li>
                             Wyślij komplet dokumentów na adres:
-                            <a href="mailto:krzysztofmichalski42@gmail.com">krzysztofmichalski42@gmail.com</a>
+                            <a href="mailto:kontakt@minotur.pl">kontakt@minotur.pl</a>
                         </li>
                     </ol>
 

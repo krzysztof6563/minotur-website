@@ -35,6 +35,13 @@ body {
     font-family: var(--textFont);
     line-height: 1.5;
     font-size: 16px;
+    min-height: 100vh;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1,
@@ -133,6 +140,14 @@ strong {
     @media screen and (min-width: 992px) {
         padding-block: 8rem;
     }
+
+    &.start {
+        padding-block: 2rem 4rem;
+
+        @media screen and (min-width: 992px) {
+            padding-block: 4rem 8rem;
+        }
+    }
 }
 
 .rounded {
@@ -162,6 +177,15 @@ strong {
 
 a {
     color: var(--accent);
+}
+
+.btn-reset {
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
 }
 
 .btn {
@@ -218,4 +242,17 @@ table.fc-scrollgrid {
     @media screen and (min-width: 992px) {
         flex-wrap: nowrap;
     }
+}
+
+.fc-daygrid-event-harness {
+    background: var(--accent);
+
+    a {
+        color: black;
+    }
+}
+
+img.gallery-img {
+    aspect-ratio: 1;
+    object-fit: cover;
 }

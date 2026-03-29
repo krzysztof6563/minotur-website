@@ -3,12 +3,12 @@ const SRCSET_WIDTHS = "300;640;960;1280;1600";
 const avifSrcsets = import.meta.glob("./**/*.webp", {
     eager: true,
     import: "default",
-    query: { format: "avif", as: "srcset", w: SRCSET_WIDTHS },
+    query: { format: "avif", as: "srcset", w: "300;640;960;1280;1600" },
 });
 const webpSrcsets = import.meta.glob("./**/*.webp", {
     eager: true,
     import: "default",
-    query: { format: "webp", as: "srcset", w: SRCSET_WIDTHS },
+    query: { format: "webp", as: "srcset", w: "300;640;960;1280;1600" },
 });
 const fallbackSrcs = import.meta.glob("./**/*.webp", {
     eager: true,

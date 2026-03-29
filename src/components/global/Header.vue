@@ -88,8 +88,12 @@ header {
     ul {
         display: flex;
         gap: 2rem;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 500;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 1.2em;
+        }
     }
 
     li {

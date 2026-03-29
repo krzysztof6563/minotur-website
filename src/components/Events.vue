@@ -48,8 +48,10 @@
                 <div class="empty" v-else>
                     <h3 style="margin-top: 0">Brak aktualnie zaplanowanych wydarzeń</h3>
                 </div>
-                <div class="calendar">
-                    <FullCalendar :options="calendarOptions" />
+                <div class="calendar" style="position: relative">
+                    <div class="calendar-wrap" style="position: sticky; top: 2rem">
+                        <FullCalendar :options="calendarOptions" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,11 +70,13 @@ const formatEventDate = (dateString) => parseEventDate(dateString).toLocaleStrin
 
 const upcomingEvents = computed(() => {
     const now = new Date();
-    return events.filter((event) => {
+    const filteredEvents = events.filter((event) => {
         const cutoff = parseEventDate(event.date);
         cutoff.setDate(cutoff.getDate() + 1);
         return now < cutoff;
     });
+
+    return filteredEvents.sort((a, b) => new Date(a.date) - new Date(b.date))
 });
 
 const expandedIndices = ref(new Set());

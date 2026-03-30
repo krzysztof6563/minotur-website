@@ -36,7 +36,7 @@
 
 <script setup>
 import { computed, ref } from "vue";
-import { galleries } from "@/data/galleries";
+import galleries from "@/data/galleries.json";
 import Picture from "@/components/utilities/Picture.vue";
 import { getResponsiveImage } from "@/assets/images/responsive";
 import VueEasyLightbox from "vue-easy-lightbox";

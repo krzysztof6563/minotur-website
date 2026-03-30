@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "dev_host": "vite dev --host",
-    "build": "vite-ssg build",
+    "build": "vite-ssg build && node scripts/generate-sitemap.mjs",
     "preview": "vite-ssg preview"
   },
   "dependencies": {

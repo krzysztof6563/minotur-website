@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-import { galleries } from "@/data/galleries";
+import galleries from "@/data/galleries.json";
 import Picture from "@/components/utilities/Picture.vue";
 </script>
 

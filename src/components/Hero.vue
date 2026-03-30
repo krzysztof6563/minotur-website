@@ -34,7 +34,11 @@ import Picture from "./utilities/Picture.vue";
         object-fit: cover;
         object-position: bottom;
 
-        @media screen and (min-width: 992px) {
+        @media screen and (min-width: 768px) {
+            aspect-ratio: 5 / 4.5;
+        }
+
+        @media screen and (min-width: 1200px) {
             aspect-ratio: 16 / 8;
         }
     }

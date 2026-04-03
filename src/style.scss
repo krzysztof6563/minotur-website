@@ -28,6 +28,10 @@
 
 html {
     scroll-behavior: smooth;
+
+    &.invert-mode {
+        filter: invert(1) hue-rotate(180deg);
+    }
 }
 
 body {

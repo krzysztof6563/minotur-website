@@ -5,6 +5,8 @@
             alt="Stowarzyszenie Minotur"
             class="w-100"
             sizes="100vw"
+            loading="eager"
+            fetchpriority="high"
         />
         <div class="overlay">
             <div class="hero-text">

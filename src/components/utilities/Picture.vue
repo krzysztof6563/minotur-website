@@ -8,6 +8,7 @@
             :class="class"
             :loading="props.loading"
             :decoding="props.decoding"
+            :fetchpriority="props.fetchpriority"
             :sizes="sizesAttr"
         />
     </picture>
@@ -24,6 +25,7 @@ const props = defineProps({
     sizes: { type: String, default: "" },
     loading: { type: String, default: "lazy" },
     decoding: { type: String, default: "async" },
+    fetchpriority: { type: String, default: "auto" },
 });
 
 const sizesAttr = props.sizes || undefined;

@@ -35,10 +35,7 @@
                                                 ></path>
                                             </svg>
                                         </td>
-                                        <td>
-                                            {{ event.location }}<br />
-                                            {{ event.address }}
-                                        </td>
+                                        <td>{{ event.location }} - {{ event.address }}</td>
                                     </tr>
                                     <tr v-if="event.eventLink">
                                         <td class="event-icon">
@@ -56,6 +53,14 @@
                                             <a :href="event.eventLink" target="_blank" rel="noopener noreferrer">
                                                 Wydarzenie na Facebooku
                                             </a>
+                                        </td>
+                                    </tr>
+                                    <tr v-if="event.type">
+                                        <td class="event-icon">
+                                            <p>{{ getEventTypeNameAndEmoji(event).emoji }}</p>
+                                        </td>
+                                        <td>
+                                            <p>{{ getEventTypeNameAndEmoji(event).name }}</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -138,6 +143,28 @@ const calendarOptions = {
     events: eventsToFullCalendar(),
     locale: plLocale,
 };
+
+const getEventTypeNameAndEmoji = (event) => {
+    let name = "";
+    let emoji = "";
+
+    switch (event.type) {
+        case "rpg":
+            name = "RPG";
+            emoji = "🎲";
+            break;
+
+        case "video-games":
+            name = "Gry cyfrowe";
+            emoji = "🎮";
+            break;
+    }
+
+    return {
+        name: name,
+        emoji: emoji,
+    };
+};
 </script>
 
 <style lang="scss" scoped>
@@ -148,7 +175,7 @@ table {
     tr {
         td {
             vertical-align: top;
-            padding-block: 0.25rem;
+            padding-block: 0rem;
 
             &:first-child {
                 font-weight: bold;
@@ -164,6 +191,7 @@ table {
 .grid-2x {
     @media screen and (min-width: 992px) {
         grid-template-columns: 2fr 4fr;
+        gap: 4rem;
     }
 }
 
@@ -174,6 +202,12 @@ table {
 
     hr {
         margin-block: 1.75rem;
+        opacity: 0.5;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 0.75em;
     }
 }
 

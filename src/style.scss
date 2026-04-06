@@ -223,7 +223,15 @@ table.fc-scrollgrid {
     border-radius: var(--radius);
 
     thead.fc-scrollgrid-section-header > th {
-        border-top-right-radius: ar(--radius);
+        border-top-right-radius: var(--radius);
+
+        &:last-child {
+            border-right: 0;
+        }
+    }
+
+    thead {
+        background-color: rgb(255 255 255 / 0.1);
     }
 
     tbody {
@@ -259,4 +267,8 @@ table.fc-scrollgrid {
 img.gallery-img {
     aspect-ratio: 1;
     object-fit: cover;
+}
+
+p + ul {
+    margin-top: 0;
 }

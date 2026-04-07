@@ -4,7 +4,12 @@
             <h2>Nadchodzące wydarzenia</h2>
             <div class="grid-2x">
                 <div class="list" v-if="upcomingEvents.length > 0">
-                    <div class="event" v-for="(event, index) in upcomingEvents" :key="event.name">
+                    <div
+                        :class="['event', event.classes || []]"
+                        v-for="(event, index) in upcomingEvents"
+                        :key="event.name"
+                        :ref="(el) => setEventRef(event.name, el)"
+                    >
                         <h3 style="margin-top: 0">{{ event.name }}</h3>
                         <div>
                             <table>
@@ -96,16 +101,18 @@
 <script setup>
 import FullCalendar from "@fullcalendar/vue3";
 import dayGridPlugin from "@fullcalendar/daygrid";
+import interactionPlugin from "@fullcalendar/interaction";
 import plLocale from "@fullcalendar/core/locales/pl";
-import { computed, ref } from "vue";
-import events from "../data/events.json";
+import { computed, nextTick, ref } from "vue";
+import eventsData from "../data/events.json";
 
 const parseEventDate = (dateString) => new Date(dateString.replace(" ", "T"));
 const formatEventDate = (dateString) => parseEventDate(dateString).toLocaleString();
+const events = ref(eventsData);
 
 const upcomingEvents = computed(() => {
     const now = new Date();
-    const filteredEvents = events.filter((event) => {
+    const filteredEvents = events.value.filter((event) => {
         const cutoff = parseEventDate(event.date);
         cutoff.setDate(cutoff.getDate() + 1);
         return now < cutoff;
@@ -115,8 +122,18 @@ const upcomingEvents = computed(() => {
 });
 
 const expandedIndices = ref(new Set());
+const eventRefs = ref({});
 
 const isExpanded = (index) => expandedIndices.value.has(index);
+
+const setEventRef = (eventName, element) => {
+    if (element) {
+        eventRefs.value[eventName] = element;
+        return;
+    }
+
+    delete eventRefs.value[eventName];
+};
 
 const toggleExpanded = (index) => {
     const next = new Set(expandedIndices.value);
@@ -129,7 +146,7 @@ const toggleExpanded = (index) => {
 };
 
 function eventsToFullCalendar() {
-    return events.map((el) => {
+    return events.value.map((el) => {
         return {
             title: el.name,
             date: el.date,
@@ -137,11 +154,24 @@ function eventsToFullCalendar() {
     });
 }
 
+const eventClick = async (arg) => {
+    events.value.forEach((el) => {
+        el.classes = el.name == arg.event.title ? ["focus"] : [];
+    });
+
+    await nextTick();
+    eventRefs.value[arg.event.title]?.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+    });
+};
+
 const calendarOptions = {
-    plugins: [dayGridPlugin],
+    plugins: [dayGridPlugin, interactionPlugin],
     initialView: "dayGridMonth",
     events: eventsToFullCalendar(),
     locale: plLocale,
+    eventClick: eventClick,
 };
 
 const getEventTypeNameAndEmoji = (event) => {
@@ -219,6 +249,17 @@ table {
 
 .event-description.is-clamped {
     -webkit-line-clamp: 3;
+}
+
+.event {
+    &.focus {
+        background: rgb(255 255 255 / 0.1);
+        outline-style: solid;
+        outline-color: rgb(255 255 255 / 0.1);
+        // outline-offset: 10px;
+        outline-width: 1rem;
+        border-radius: var(--radius);
+    }
 }
 
 .show-more {

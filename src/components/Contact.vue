@@ -13,8 +13,12 @@
 
                     <ul>
                         <li>E-mail: <a href="mailto:kontakt@minotur.pl">kontakt@minotur.pl</a></li>
-                        <li>Telefon: <a href="tel:+48697111731">+48 697 111 731</a></li>
-                        <li>Social media – napisz do nas na Facebooku lub Instagramie</li>
+                        <li>Telefon: <a href="tel:+48455562834">+48 455 562 834</a></li>
+                        <li>
+                            Social media – napisz do nas na
+                            <a href="https://www.facebook.com/minotur.chojnice/" target="_blank">Facebooku</a> lub
+                            <a href="https://www.instagram.com/minotur.chojnice" target="_blank">Instagramie</a>
+                        </li>
                     </ul>
 
                     <p>Odpowiadamy najszybciej jak się da – chyba że akurat ktoś wpadł do galaretowatego sześcianu.</p>

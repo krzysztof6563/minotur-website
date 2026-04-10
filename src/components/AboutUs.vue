@@ -12,9 +12,12 @@
                     </p>
                     <p>
                         W rzeczywistości <strong>Minotur</strong> to także stowarzyszenie zrzeszające miłośników
-                        fantastyki, gier planszowych, RPG, popkultury oraz innych kreatywnych czynności. Organizujemy
-                        spotkania i wydarzenia związane z powyższą tematyką ale i również inne atrakcje – wszystko po to
-                        aby Chojnice i ich okolice byłym miejscem gdzie można miło i kreatywnie spędzić czas.
+                        fantastyki, w tym fantasy i sci-fi, RPG, gier cyfrowych i planszowych oraz szeroko pojętej
+                        popkultury i innych kreatywnych działań. Organizujemy spotkania i wydarzenia związane z powyższą
+                        tematyką, ale także inne atrakcje – wszystko po to aby Chojnice i ich okolice były miejscem
+                        gdzie można miło i kreatywnie spędzić czas.<br />
+                        Skupiamy się na różnych klimatach: od fantasy, horroru i science fiction, po surrealizm, komedię
+                        i inne nietypowe konwencje.
                     </p>
                     <p>
                         Naturalne środowisko Minotura znajduje się w dwóch miejscach. Wybierz jedną z ikon poniżej, aby

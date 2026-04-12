@@ -14,7 +14,7 @@
                     />
                     <div class="gallery-card-body">
                         <h2>{{ gallery.title }}</h2>
-                        <p v-if="gallery.description">{{ gallery.description }}</p>
+                        <p v-if="gallery.description" v-html="gallery.description"></p>
                     </div>
                 </RouterLink>
             </article>

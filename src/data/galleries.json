@@ -1,5 +1,18 @@
 [
     {
+        "slug": "turniej-deluxe-ski-jump",
+        "title": "Turniej Deluxe Ski Jump 2",
+        "description": "Turniej Deluxe Ski Jump 2 - powrót do klasycznych skoków narciarskich, trochę nostalgii i rywalizacja o każdy metr.",
+        "images": [
+            "/assets/images/galleries/turniej-deluxe-ski-jump/IMG20260416190700.webp",
+            "/assets/images/galleries/turniej-deluxe-ski-jump/IMG20260416190643.webp",
+            "/assets/images/galleries/turniej-deluxe-ski-jump/IMG20260416200016.webp",
+            "/assets/images/galleries/turniej-deluxe-ski-jump/IMG20260416190851.webp",
+            "/assets/images/galleries/turniej-deluxe-ski-jump/IMG20260416200101.webp",
+            "/assets/images/galleries/turniej-deluxe-ski-jump/IMG20260416200202.webp"
+        ]
+    },
+    {
         "slug": "otwarte-sesje-rpg-2",
         "title": "Otwarte sesje RPG z Minoturem #2",
         "description": "Drugie spotkanie z RPG w Chojnicah! Klimat fantasy przekształcił się w telenowele i odcinek <i>Z Archiwum X</i>",

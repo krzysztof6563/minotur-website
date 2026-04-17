@@ -12,9 +12,9 @@
                         class="gallery-card-image w-100"
                         sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw"
                     />
-                    <div class="gallery-card-body">
+                    <div class="gallery-card-body" style="height: auto; display: flex; flex-direction: column">
                         <h2>{{ gallery.title }}</h2>
-                        <p v-if="gallery.description" v-html="gallery.description"></p>
+                        <p v-if="gallery.description" v-html="gallery.description" style="margin-top: auto"></p>
                     </div>
                 </RouterLink>
             </article>
@@ -23,8 +23,11 @@
 </template>
 
 <script setup>
-import galleries from "@/data/galleries.json";
+import galleriesData from "@/data/galleries.json";
 import Picture from "@/components/utilities/Picture.vue";
+import { ref } from "vue";
+
+let galleries = ref(galleriesData);
 </script>
 
 <style lang="scss">

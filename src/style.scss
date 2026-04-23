@@ -265,6 +265,14 @@ table.fc-scrollgrid {
     }
 }
 
+.fc-day.fc-day-past {
+    opacity: 0.4;
+
+    .fc-daygrid-event-harness {
+        pointer-events: none;
+    }
+}
+
 img.gallery-img {
     aspect-ratio: 1;
     object-fit: cover;

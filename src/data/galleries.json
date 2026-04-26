@@ -1,5 +1,19 @@
 [
     {
+        "slug": "otwarte-sesje-rpg-3",
+        "title": "Otwarte sesje RPG z Minoturem #3",
+        "description": "Trzecie spotkanie z cyklu Otwartych sesji RPG w Chojnicach. Było grane w Warlock!, Zew Cthulhu, One Honk i Dungeons & Dragons.",
+        "images": [
+            "/assets/images/galleries/otwarte-sesje-rpg-3/01_IMG20260426143405.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-3/02_20260426_122528680_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-3/03_20260426_122503139_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-3/04_20260426_124431226_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-3/04_IMG20260426143349_01.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-3/05_20260426_124440638_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-3/05_IMG20260426143353.webp"
+        ]
+    },
+    {
         "slug": "turniej-deluxe-ski-jump",
         "title": "Turniej Deluxe Ski Jump 2",
         "description": "Turniej Deluxe Ski Jump 2 - powrót do klasycznych skoków narciarskich, trochę nostalgii i rywalizacja o każdy metr.",
@@ -17,20 +31,20 @@
         "title": "Otwarte sesje RPG z Minoturem #2",
         "description": "Drugie spotkanie z RPG w Chojnicah! Klimat fantasy przekształcił się w telenowele i odcinek <i>Z Archiwum X</i>",
         "images": [
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_120739243_iOS.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_121248403_iOS.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/IMG20260411173655.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_121725851_iOS.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_121751920_iOS.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_142609152_iOS.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_150701897_iOS.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_150712421_iOS.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/IMG20260411140859.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/IMG20260411140910.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/IMG20260411152114.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/IMG20260411155624.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/IMG20260411173906.webp",
-            "/assets/images/galleries/otwarte-sesje-rgp-2/20260411_143443360_iOS.webp"
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_120739243_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_121248403_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/IMG20260411173655.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_121725851_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_121751920_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_142609152_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_150701897_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_150712421_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/IMG20260411140859.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/IMG20260411140910.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/IMG20260411152114.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/IMG20260411155624.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/IMG20260411173906.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-2/20260411_143443360_iOS.webp"
         ]
     },
     {

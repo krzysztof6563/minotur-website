@@ -1,5 +1,32 @@
 [
     {
+        "name": "Otwarte Sesje RPG z Minoturem #7",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-06-27 14:00",
+        "eventLink": null,
+        "type": "rpg",
+        "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.<br>Więcej szczegółów już niedługo!</p>"
+    },
+    {
+        "name": "Otwarte Sesje RPG z Minoturem #6",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-06-13 14:00",
+        "eventLink": null,
+        "type": "rpg",
+        "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.<br>Więcej szczegółów już niedługo!</p>"
+    },
+    {
+        "name": "Spotkanie biblioteczne",
+        "location": "Miejska Biblioteka Publiczna w Chojnicach",
+        "address": "Wysoka 3, Chojnice",
+        "date": "2026-06-11 15:00",
+        "eventLink": null,
+        "type": "prel",
+        "description": "<p>A może by tak spotkać się w bibliotece? 🤔</p><p>Przedstawimy Wam temat Diegezy w grach, filmach a nawet w książkach! Przejdziemy również przez temat dysonansu ludonarracyjnego w tych samych dziełach. Jeżeli nie wiesz co te pojęcia oznaczają to chodź, dowiedz się tego od nas i wejdź w dyskuje na temat swoich ulubionych dzieł kultury.</p><p>Wstęp darmowy </p>"
+    },
+    {
         "name": "Otwarte Sesje RPG z Minoturem #5",
         "location": "Komnata Kości",
         "address": "Cechowa 4, Chojnice",
@@ -9,13 +36,22 @@
         "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.<br>Więcej szczegółów już niedługo!</p>"
     },
     {
+        "name": "Turniej Mario Kart",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-05-15 19:00",
+        "eventLink": null,
+        "type": "rpg",
+        "description": "<p>Hej hej! Tym razem zapraszamy Was na turniej w Mario Kart!<br>Będą emocje, będą wyścigi, będzie narzekanie na niebieskie muszle!</p><p>Aby wziąć udział wystarczy zakupić coś przy barze do godziny 18:50.</p>"
+    },
+    {
         "name": "Otwarte Sesje RPG z Minoturem #4",
         "location": "Komnata Kości",
         "address": "Cechowa 4, Chojnice",
         "date": "2026-05-09 14:00",
         "eventLink": null,
         "type": "rpg",
-        "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.<br>Więcej szczegółów już niedługo!</p>"
+        "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.</p><p>Tym razem gramy w: <ul><li>Dungeons and Dragons</li><li>Zew Cthuhlu</li><li>One Honk</li><li>Warlock</li></ul></p>"
     },
     {
         "name": "Otwarte Sesje RPG z Minoturem #3",

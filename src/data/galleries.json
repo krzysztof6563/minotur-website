@@ -1,5 +1,43 @@
 [
     {
+        "slug": "turniej-mario-kart",
+        "title": "Turniej Mario Kart",
+        "description": "Wyścigi! Wybuchy! Banany! Muszle! A wszystko to doprawione dobra atmosferą",
+        "images": [
+            "/assets/images/galleries/turniej-mario-kart/20260515_175735576_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_175743008_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_180445176_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_190606693_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_191459555_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_191527189_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_191549171_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_191620309_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/20260515_192029584_iOS.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515191725.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515193125.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515193324.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515194909.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515194929.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515202113.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515202212.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515202333.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515204238.webp",
+            "/assets/images/galleries/turniej-mario-kart/IMG20260515204335.webp"
+        ]
+    },
+    {
+        "slug": "otwarte-sesje-rpg-4",
+        "title": "Otwarte sesje RPG z Minoturem #4",
+        "description": "Czwarte spotkanie z cyklu Otwartych sesji RPG w Chojnicach. Na tapet wzięliśmy scenariusz parodiujący Zew Cthulhu",
+        "images": [
+            "/assets/images/galleries/otwarte-sesje-rpg-4/IMG20260509150208.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-4/IMG20260509150341.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-4/IMG20260509150404.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-4/IMG20260509152345.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-4/IMG20260509194919.webp"
+        ]
+    },
+    {
         "slug": "otwarte-sesje-rpg-3",
         "title": "Otwarte sesje RPG z Minoturem #3",
         "description": "Trzecie spotkanie z cyklu Otwartych sesji RPG w Chojnicach. Było grane w Warlock!, Zew Cthulhu, One Honk i Dungeons & Dragons.",

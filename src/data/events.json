@@ -9,6 +9,15 @@
         "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.<br>Więcej szczegółów już niedługo!</p>"
     },
     {
+        "name": "Turniej Tekken 3",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-06-19 19:00",
+        "eventLink": "https://fb.me/e/6hVWQmgl6",
+        "type": "video-games",
+        "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.<br>Więcej szczegółów już niedługo!</p>"
+    },
+    {
         "name": "Otwarte Sesje RPG z Minoturem #6",
         "location": "Komnata Kości",
         "address": "Cechowa 4, Chojnice",
@@ -31,7 +40,7 @@
         "location": "Komnata Kości",
         "address": "Cechowa 4, Chojnice",
         "date": "2026-05-23 14:00",
-        "eventLink": null,
+        "eventLink": "https://fb.me/e/4FjBrCr4e",
         "type": "rpg",
         "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.<br>Więcej szczegółów już niedługo!</p>"
     },
@@ -40,8 +49,8 @@
         "location": "Komnata Kości",
         "address": "Cechowa 4, Chojnice",
         "date": "2026-05-15 19:00",
-        "eventLink": null,
-        "type": "rpg",
+        "eventLink": "https://fb.me/e/6TbmlTXmH",
+        "type": "video-games",
         "description": "<p>Hej hej! Tym razem zapraszamy Was na turniej w Mario Kart!<br>Będą emocje, będą wyścigi, będzie narzekanie na niebieskie muszle!</p><p>Aby wziąć udział wystarczy zakupić coś przy barze do godziny 18:50.</p>"
     },
     {
@@ -49,7 +58,7 @@
         "location": "Komnata Kości",
         "address": "Cechowa 4, Chojnice",
         "date": "2026-05-09 14:00",
-        "eventLink": null,
+        "eventLink": "https://fb.me/e/73nmhdEJJ",
         "type": "rpg",
         "description": "<p>Kolejne spotkanie z RPG!<br>Gramy w formule „wpadasz i grasz” - bez zapisów i bez doświadczenia. Wszystko tłumaczymy na miejscu.</p><p>Tym razem gramy w: <ul><li>Dungeons and Dragons</li><li>Zew Cthuhlu</li><li>One Honk</li><li>Warlock</li></ul></p>"
     },
@@ -58,7 +67,7 @@
         "location": "Komnata Kości",
         "address": "Cechowa 4, Chojnice",
         "date": "2026-04-26 14:00",
-        "eventLink": null,
+        "eventLink": "https://fb.me/e/3OQe0x7BR",
         "type": "rpg",
         "description": "<p>Po raz kolejny wpadajcie do nas na RPG!</p><p>Zasady jak zwykle:</p><ul><li>Przychodzisz i grasz, brak zapisów</li><li>Nie musisz znać systemu, wszystko wyjaśnimy</li></ul><p>Tym razem rozegramy sesje w takich systemach jak:</p><ul><li>D&D</li><li>One Honk</li><li>Zew Cthulu</li><li>Warlock</li></ul>"
     },

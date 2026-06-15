@@ -1,5 +1,30 @@
 [
     {
+        "slug": "otwarte-sesje-rpg-6",
+        "title": "Otwarte Sesje RPG #6",
+        "description": "Szóste spotkanie z RPGami. Tym razem gralismy w Warlock!",
+        "images": [
+            "/assets/images/galleries/otwarte-sesje-rpg-6/01_IMG-20260613-WA0001.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-6/02_IMG20260613144200.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-6/723942272_122114437191259011_8581822739219778430_n.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-6/724087247_122114437299259011_5628346102723416736_n.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-6/724230730_122114437245259011_225660177040578906_n.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-6/724276605_122114437341259011_5364052580002552242_n.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-6/724731716_122114437137259011_598207352333152173_n.webp"
+        ]
+    },
+    {
+        "slug": "otwarte-sesje-rpg-5",
+        "title": "Otwarte Sesje RPG #5",
+        "description": "Piąte spotkanie z cyklu Otwartych sesji RPG w Chojnicach!",
+        "images": [
+            "/assets/images/galleries/otwarte-sesje-rpg-5/01_707086262_122112631341259011_7663954402630313272_n.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-5/02_705706114_122112631383259011_8738092630526356668_n.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-5/706092008_122112631455259011_350076239778626609_n.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-5/707592150_122112631299259011_7524166621311283773_n.webp"
+        ]
+    },
+    {
         "slug": "turniej-mario-kart",
         "title": "Turniej Mario Kart",
         "description": "Wyścigi! Wybuchy! Banany! Muszle! A wszystko to doprawione dobra atmosferą",

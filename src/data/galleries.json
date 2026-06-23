@@ -1,5 +1,24 @@
 [
     {
+        "slug": "turniej-tekken-3",
+        "title": "Turniej Tekken #3",
+        "description": "Turniej Tekken 3 - klasyczne mordobicie, szybkie pojedynki i rywalizacja do ostatniej rundy.",
+        "images": [
+            "/assets/images/galleries/turniej-tekken-3/01_IMG20260619200208.webp",
+            "/assets/images/galleries/turniej-tekken-3/01_IMG20260619201859.webp",
+            "/assets/images/galleries/turniej-tekken-3/01_IMG20260619201922.webp",
+            "/assets/images/galleries/turniej-tekken-3/01_IMG20260619204457.webp",
+            "/assets/images/galleries/turniej-tekken-3/01_IMG20260619204653.webp",
+            "/assets/images/galleries/turniej-tekken-3/01_IMG20260619204701.webp",
+            "/assets/images/galleries/turniej-tekken-3/01_IMG20260619204710.webp",
+            "/assets/images/galleries/turniej-tekken-3/02_20260619_174038454_iOS.webp",
+            "/assets/images/galleries/turniej-tekken-3/02_20260619_175852144_iOS.webp",
+            "/assets/images/galleries/turniej-tekken-3/09_20260619_190635586_iOS.webp",
+            "/assets/images/galleries/turniej-tekken-3/09_20260619_190700093_iOS.webp",
+            "/assets/images/galleries/turniej-tekken-3/09_20260619_190721111_iOS.webp"
+        ]
+    },
+    {
         "slug": "otwarte-sesje-rpg-6",
         "title": "Otwarte Sesje RPG #6",
         "description": "Szóste spotkanie z RPGami. Tym razem gralismy w Warlock!",

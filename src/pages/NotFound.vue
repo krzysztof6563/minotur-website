@@ -17,3 +17,13 @@
         </div>
     </section>
 </template>
+
+<script setup>
+import { usePageSeo } from "@/composables/usePageSeo";
+
+usePageSeo({
+    title: "404 - Nie znaleziono strony | Minotur",
+    description: "Strona, której szukasz, nie istnieje lub została przeniesiona.",
+    robots: "noindex, nofollow",
+});
+</script>

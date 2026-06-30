@@ -4,6 +4,9 @@ import Contact from "@/components/Contact.vue";
 import Events from "@/components/Events.vue";
 import Hero from "@/components/Hero.vue";
 import JoinUs from "@/components/JoinUs.vue";
+import { usePageSeo } from "@/composables/usePageSeo";
+
+usePageSeo();
 </script>
 
 <template>

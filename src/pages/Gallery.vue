@@ -39,6 +39,7 @@ import { computed, ref } from "vue";
 import galleries from "@/data/galleries.json";
 import Picture from "@/components/utilities/Picture.vue";
 import { getResponsiveImage } from "@/assets/images/responsive";
+import { usePageSeo } from "@/composables/usePageSeo";
 import VueEasyLightbox from "vue-easy-lightbox";
 
 const props = defineProps({
@@ -49,6 +50,13 @@ const gallery = computed(() => galleries.find((item) => item.slug === props.slug
 const lightboxVisible = ref(false);
 const lightboxIndex = ref(0);
 const lightboxImages = computed(() => (gallery.value?.images ?? []).map((src) => getResponsiveImage(src).src));
+
+usePageSeo({
+    title: () => (gallery.value ? `${gallery.value.title} - Galerie Minotura` : "Galeria - Minotur"),
+    description: () =>
+        gallery.value?.description ?? "Galeria zdjęć z wydarzenia organizowanego przez stowarzyszenie Minotur w Chojnicach.",
+    path: () => `/galeria/${props.slug}`,
+});
 
 const openLightbox = (index) => {
     lightboxIndex.value = index;

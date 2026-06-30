@@ -25,9 +25,16 @@
 <script setup>
 import galleriesData from "@/data/galleries.json";
 import Picture from "@/components/utilities/Picture.vue";
+import { usePageSeo } from "@/composables/usePageSeo";
 import { ref } from "vue";
 
 let galleries = ref(galleriesData);
+
+usePageSeo({
+    title: "Galerie wydarzeń - Minotur",
+    description: "Zdjęcia z wydarzeń stowarzyszenia Minotur: sesji RPG, turniejów i spotkań społeczności w Chojnicach.",
+    path: "/galeria",
+});
 </script>
 
 <style lang="scss">

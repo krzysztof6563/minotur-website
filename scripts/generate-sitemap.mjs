@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { routes } from "../src/router/index.js";
+import { upcomingEvents } from "../src/helpers/events.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,23 +34,28 @@ function isSitemapRoute(route) {
     return route.path && !route.path.includes(":");
 }
 
+function isEventRoutePath(routePath) {
+    return routePath.startsWith("/wydarzenie/");
+}
+
 function buildUrlEntry(siteUrl, routePath, lastmod) {
     const location = routePath === "/" ? siteUrl : `${siteUrl}${routePath}`;
 
-    return [
-        "  <url>",
-        `    <loc>${location}</loc>`,
-        `    <lastmod>${lastmod}</lastmod>`,
-        "  </url>",
-    ].join("\n");
+    return ["  <url>", `    <loc>${location}</loc>`, `    <lastmod>${lastmod}</lastmod>`, "  </url>"].join("\n");
 }
 
 async function main() {
     const cname = await readFile(cnamePath, "utf8");
     const siteUrl = normalizeSiteUrl(process.env.SITE_URL ?? cname);
     const lastmod = formatLastMod(buildTimestamp);
-    const routePaths = [...new Set(routes.filter(isSitemapRoute).map((route) => route.path))]
-        .sort((left, right) => left.localeCompare(right));
+    const staticRoutePaths = routes
+        .filter(isSitemapRoute)
+        .map((route) => route.path)
+        .filter((routePath) => !isEventRoutePath(routePath));
+    const upcomingEventPaths = upcomingEvents.map((event) => `/wydarzenie/${event.slug}`);
+    const routePaths = [...new Set([...staticRoutePaths, ...upcomingEventPaths])].sort((left, right) =>
+        left.localeCompare(right),
+    );
 
     const sitemap = [
         '<?xml version="1.0" encoding="UTF-8"?>',

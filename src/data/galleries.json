@@ -1,5 +1,42 @@
 [
     {
+        "slug": "turniej-worms-armageddon",
+        "title": "Turniej Worms Armageddon",
+        "description": "Święte granaty, staruszki, latające owce i topiące się robaki",
+        "images": [
+            "/assets/images/galleries/turniej-worms-armageddon/001_20260717_171357348_iOS.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_20260717_172939702_iOS.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_20260717_175535712_iOS.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_20260717_180955640_iOS.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_20260717_181003708_iOS.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717203121.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717211156.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717222817.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717223430.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717230426.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717232433.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717235433.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/001_IMG20260717235452.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/002_IMG20260717231833.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/003_Z_3_20260717_211859962_iOS.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/003_Z_3_20260717_211940913_iOS.webp",
+            "/assets/images/galleries/turniej-worms-armageddon/003_Z_3_20260717_212005056_iOS.webp"
+        ]
+    },
+    {
+        "slug": "otwarte-sesje-rpg-8",
+        "title": "Otwarte sesje RPG #8",
+        "description": "Dla odmiany graliśmy w planszówkę Odmęty Grozy",
+        "images": [
+            "/assets/images/galleries/otwarte-sesje-rpg-8/001_IMG20260711153736.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-8/IMG20260711151243.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-8/IMG20260711151252.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-8/IMG20260711153719.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-8/rn_image_picker_lib_temp_42c0fe11-6a82-4430-a95a-5e8e1919c2aa.jpg",
+            "/assets/images/galleries/otwarte-sesje-rpg-8/rn_image_picker_lib_temp_42c0fe11-6a82-4430-a95a-5e8e1919c2aa.webp"
+        ]
+    },
+    {
         "slug": "otwarte-sesje-rpg-7",
         "title": "Otwarte Sesje RPG #7",
         "description": "Polityczne intrygi Wampira Maskarady oraz tajemnice do odkrycia w Delta Green!",

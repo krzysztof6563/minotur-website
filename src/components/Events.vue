@@ -4,25 +4,15 @@
             <h2>Nadchodzące wydarzenia</h2>
             <div class="grid-2x">
                 <div class="list" v-if="upcomingEvents.length > 0">
-                    <div
-                        :class="['event', event.classes || []]"
-                        v-for="(event, index) in upcomingEvents"
-                        :key="event.name"
-                        :ref="(el) => setEventRef(event.name, el)"
-                    >
+                    <div :class="['event', event.classes || []]" v-for="(event, index) in upcomingEvents"
+                        :key="event.name" :ref="(el) => setEventRef(event.name, el)">
                         <h3 style="margin-top: 0">{{ event.name }}</h3>
                         <div>
                             <EventTable :event="event" />
-                            <div
-                                class="event-description"
-                                :class="{ 'is-clamped': !isExpanded(index) }"
-                                v-html="event.description"
-                            ></div>
-                            <RouterLink
-                                class="show-more btn btn-primary"
-                                style="width: fit-content"
-                                :to="`/wydarzenie/${event.slug}`"
-                            >
+                            <div class="event-description" :class="{ 'is-clamped': !isExpanded(index) }"
+                                v-html="event.description"></div>
+                            <RouterLink class="show-more btn btn-primary" style="width: fit-content"
+                                :to="`/wydarzenie/${event.slug}`">
                                 Pokaż więcej
                             </RouterLink>
                         </div>
@@ -145,6 +135,8 @@ const calendarOptions = {
     //     text-decoration: underline;
     cursor: pointer;
     margin-top: 0.5rem;
+    font-size: .9rem;
+    font-weight: 500;
 }
 
 .calendar {

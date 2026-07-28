@@ -1,5 +1,35 @@
 [
     {
+        "slug": "otwarte-sesje-rpg-z-minoturem-11",
+        "name": "Otwarte Sesje RPG z Minoturem #11",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-08-22 15:00",
+        "eventLink": null,
+        "type": "rpg",
+        "description": "<p>Więcej informacji już niedługo :></p>"
+    },
+    {
+        "slug": "turniej-bomberman-r-2",
+        "name": "Turniej Bomberman R 2",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-08-14 19:00",
+        "eventLink": null,
+        "type": "video-games",
+        "description": "<p>Czeka na Was dynamiczna rywalizacja, mnóstwo wybuchów i świetna zabawa w jednej z najbardziej kultowych gier imprezowych.</p><p>Nie musisz być weteranem serii – zasady są proste i szybko można je opanować, dlatego do udziału zapraszamy zarówno początkujących, jak i doświadczonych graczy.</p><p>Na najlepszych uczestników czekają nagrody, a po zakończeniu turnieju zachęcamy do wspólnego grania i integracji przy innych grach.</p><p>Jeżeli lubisz zdrową rywalizację, emocjonujące pojedynki i dobrą atmosferę, koniecznie dołącz do nas!</p>"
+    },
+    {
+        "slug": "otwarte-sesje-rpg-z-minoturem-10",
+        "name": "Otwarte Sesje RPG z Minoturem #10",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-08-08 15:00",
+        "eventLink": null,
+        "type": "rpg",
+        "description": "<p>Więcej informacji już niedługo :>.</p>"
+    },
+    {
         "slug": "otwarte-sesje-rpg-z-minoturem-9",
         "name": "Otwarte Sesje RPG z Minoturem #9",
         "location": "Komnata Kości",

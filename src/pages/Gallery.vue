@@ -15,7 +15,7 @@
             >
                 <Picture
                     :src="image"
-                    :alt="gallery.title"
+                    :alt="`Minotur Chojnice - ${gallery.title} - zdjęcie ${index}`"
                     class="gallery-image w-100 gallery-img rounded"
                     sizes="(min-width: 1200px) 25vw, (min-width: 768px) 33vw, 100vw"
                 />
@@ -54,7 +54,8 @@ const lightboxImages = computed(() => (gallery.value?.images ?? []).map((src) =>
 usePageSeo({
     title: () => (gallery.value ? `${gallery.value.title} - Galerie Minotura` : "Galeria - Minotur"),
     description: () =>
-        gallery.value?.description ?? "Galeria zdjęć z wydarzenia organizowanego przez stowarzyszenie Minotur w Chojnicach.",
+        gallery.value?.description ??
+        "Galeria zdjęć z wydarzenia organizowanego przez stowarzyszenie Minotur w Chojnicach.",
     path: () => `/galeria/${props.slug}`,
 });
 

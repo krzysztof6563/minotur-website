@@ -1,5 +1,29 @@
 [
     {
+        "slug": "turniej-bomberman",
+        "title": "Turniej Bomberman",
+        "description": "Kolejny tunriej rozegrany, a czas miło spędzony, mówiąc krótko było bombowo.",
+        "images": [
+            "/assets/images/galleries/turniej-bomberman/01_IMG20260814192527.webp",
+            "/assets/images/galleries/turniej-bomberman/02_20260814_175252165_iOS.webp",
+            "/assets/images/galleries/turniej-bomberman/02_IMG20260814195504.webp",
+            "/assets/images/galleries/turniej-bomberman/02_IMG20260814195511.webp",
+            "/assets/images/galleries/turniej-bomberman/02_IMG20260814200138.webp",
+            "/assets/images/galleries/turniej-bomberman/02_IMG20260814200853.webp",
+            "/assets/images/galleries/turniej-bomberman/02_IMG20260814202203.webp",
+            "/assets/images/galleries/turniej-bomberman/02_IMG20260814204124.webp",
+            "/assets/images/galleries/turniej-bomberman/02_IMG20260814205921.webp",
+            "/assets/images/galleries/turniej-bomberman/09_20260814_190221383_iOS.webp",
+            "/assets/images/galleries/turniej-bomberman/09_20260814_190319194_iOS.webp",
+            "/assets/images/galleries/turniej-bomberman/09_20260814_190344722_iOS.webp",
+            "/assets/images/galleries/turniej-bomberman/09_20260814_190417153_iOS.webp",
+            "/assets/images/galleries/turniej-bomberman/09_20260814_190506521_iOS.webp",
+            "/assets/images/galleries/turniej-bomberman/11_IMG20260814204947.webp",
+            "/assets/images/galleries/turniej-bomberman/11_IMG20260814221416.webp",
+            "/assets/images/galleries/turniej-bomberman/11_IMG20260814222937.webp"
+        ]
+    },
+    {
         "slug": "otwarte-sesje-rpg-10",
         "title": "Otwarte Sesje RPG #10",
         "description": "Kolejne spotkanie z grami fabularnymi za nami! Tym razem przy stołach zagościły Dragonbane oraz Domostwa Grozy w Zewie Cthulhu – było więc zarówno klasyczne fantasy, jak i solidna dawka tajemnic i grozy.",

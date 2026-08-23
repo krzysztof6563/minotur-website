@@ -10,6 +10,16 @@
         "description": "<p>Więcej szczegółów już niedługo!</p>"
     },
     {
+        "slug": "turniej-gier-wideo",
+        "name": "Turniej Gier Wideo",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-09-25 19:00",
+        "eventLink": null,
+        "type": "video-games",
+        "description": "<p>Więcej szczegółów już niedługo!</p>"
+    },
+    {
         "slug": "otwarte-sesje-rpg-z-minoturem-12",
         "name": "Otwarte Sesje RPG z Minoturem #12",
         "location": "Komnata Kości",

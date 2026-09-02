@@ -19,6 +19,11 @@ const getEventTypeNameAndEmoji = (event) => {
 
         case "prel":
             name = "Spotkanie";
+            emoji = "🗒️";
+            break;
+
+        case "larp":
+            name = "LARP";
             emoji = "🎭";
             break;
     }

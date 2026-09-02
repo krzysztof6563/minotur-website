@@ -30,6 +30,16 @@
         "description": "<p>Więcej szczegółów już niedługo!</p>"
     },
     {
+        "slug": "larp-badawczy",
+        "name": "LARP Badawczy",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-09-06 16:00",
+        "eventLink": null,
+        "type": "larp",
+        "description": "<p>Witamy na stacji badawczej North Light enterprise. Nasz oddział właśnie zajmuje się analizą gatunków bakterii zawartych w lodowcach.<br>Ostatni status dostaliśmy wczorajszego dnia. Miejmy nadzieję, że jest to jednorazowe opóźnienie a nie poważny wypadek... !</p>"
+    },
+    {
         "slug": "otwarte-sesje-rpg-z-minoturem-11",
         "name": "Otwarte Sesje RPG z Minoturem #11",
         "location": "Komnata Kości",

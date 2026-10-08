@@ -1,5 +1,46 @@
 [
     {
+        "slug": "turniej-mortal-kombat",
+        "title": "Turniej Mortal Kombat",
+        "description": "Po ciężkich zmaganiach udało się wybrać zwycięzcę turnieju Mortal Kombat!",
+        "images": [
+            "/assets/images/galleries/turniej-mortal-kombat/01_IMG20260925194807.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925193933.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925194147.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925194358.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925194820.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925195739.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925200759.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925201550.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925201552.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925202000.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925203123.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925203308.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925203952.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925204509.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925211854.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925211934.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925212000.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925212041.webp",
+            "/assets/images/galleries/turniej-mortal-kombat/IMG20260925213116.webp"
+        ]
+    },
+    {
+        "slug": "otwarte-sesje-rpg-12",
+        "title": "Otwarte Sesje RPG #12",
+        "description": "Kontynuujemy naszą minikampanie w Dragonbane oraz rozwiązujemy zagadkę zabójstwa w szpitalu w Delta Green",
+        "images": [
+            "/assets/images/galleries/otwarte-sesje-rpg-12/20260912_134140456_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-12/20260912_134212282_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-12/20260912_134852461_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-12/20260912_170733477_iOS.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-12/IMG20260912162858.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-12/IMG20260912163316.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-12/IMG20260912163321.webp",
+            "/assets/images/galleries/otwarte-sesje-rpg-12/IMG20260912163400.webp"
+        ]
+    },
+    {
         "slug": "otwarte-sesje-rpg-11",
         "title": "Otwarte Sesje RPG #11",
         "description": "Fantastyczne przygody w systemie Dragonbane. Czy zginęły postacie 3 graczy? Może. Czy mamy kolejny fragment artefaktu? Oczywiście!",

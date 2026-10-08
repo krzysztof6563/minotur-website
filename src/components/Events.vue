@@ -4,19 +4,25 @@
             <h2>Nadchodzące wydarzenia</h2>
             <div class="grid-2x">
                 <div class="list" v-if="upcomingEvents.length > 0">
-                    <div :class="['event', event.classes || []]" v-for="(event, index) in upcomingEvents"
-                        :key="event.name" :ref="(el) => setEventRef(event.name, el)">
-                        <h3 style="margin-top: 0">{{ event.name }}</h3>
+                    <div
+                        :class="['event', event.classes || []]"
+                        v-for="(event, index) in upcomingEvents"
+                        :key="event.name"
+                        :ref="(el) => setEventRef(event.name, el)"
+                    >
+                        <RouterLink :to="`/wydarzenie/${event.slug}`" style="text-decoration: none; color: inherit">
+                            <h3 style="margin-top: 0">{{ event.name }}</h3>
+                        </RouterLink>
                         <div>
                             <EventTable :event="event" />
-                            <div class="event-description" :class="{ 'is-clamped': !isExpanded(index) }"
-                                v-html="event.description"></div>
-                            <RouterLink class="show-more btn btn-primary" style="width: fit-content"
-                                :to="`/wydarzenie/${event.slug}`">
-                                Pokaż więcej
-                            </RouterLink>
+                            <EventChips :event="event" />
+                            <!-- <div
+                                class="event-description"
+                                :class="{ 'is-clamped': !isExpanded(index) }"
+                                v-html="event.description"
+                            ></div> -->
                         </div>
-                        <hr />
+                        <!-- <hr /> -->
                     </div>
                 </div>
                 <div class="empty" v-else>
@@ -41,6 +47,7 @@ import { computed, nextTick, ref } from "vue";
 import { events, upcomingEvents } from "../helpers/events";
 import { useRouter } from "vue-router";
 import EventTable from "./EventTable.vue";
+import EventChips from "./EventChips.vue";
 
 const expandedIndices = ref(new Set());
 const eventRefs = ref({});
@@ -94,6 +101,10 @@ const calendarOptions = {
 }
 
 .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
     .event:last-of-type hr {
         display: none;
     }
@@ -120,6 +131,11 @@ const calendarOptions = {
 }
 
 .event {
+    background: #21232c;
+    border: 1px solid var(--accent-lighter);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+
     &.focus {
         background: rgb(255 255 255 / 0.1);
         outline-style: solid;
@@ -134,8 +150,8 @@ const calendarOptions = {
     //     border: none;
     //     text-decoration: underline;
     cursor: pointer;
-    margin-top: 0.5rem;
-    font-size: .9rem;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 

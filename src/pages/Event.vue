@@ -5,6 +5,7 @@
         <div class="event-grid">
             <div>
                 <EventTable :event="event" />
+                <EventChips :event="event" />
             </div>
             <div v-html="event.description"></div>
         </div>
@@ -15,6 +16,7 @@
 import { useHead } from "@unhead/vue";
 import { seoDefaults, usePageSeo } from "@/composables/usePageSeo";
 import EventTable from "../components/EventTable.vue";
+import EventChips from "../components/EventChips.vue";
 import { events, parseEventDate } from "../helpers/events";
 
 const props = defineProps({
@@ -26,26 +28,26 @@ const eventUrl = `${seoDefaults.siteUrl}/wydarzenie/${props.slug}`;
 const fallbackDescription = "Szczegóły wydarzenia organizowanego przez stowarzyszenie Minotur w Chojnicach.";
 const eventJsonLd = event
     ? {
-        "@context": "https://schema.org",
-        "@type": "Event",
-        name: event.name,
-        startDate: parseEventDate(event.date).toISOString(),
-        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-        eventStatus: "https://schema.org/EventScheduled",
-        description: event.description,
-        url: eventUrl,
-        location: {
-            "@type": "Place",
-            name: event.location,
-            address: event.address,
-        },
-        organizer: {
-            "@type": "Organization",
-            name: seoDefaults.siteName,
-            url: seoDefaults.siteUrl,
-        },
-        ...(event.eventLink ? { sameAs: event.eventLink } : {}),
-    }
+          "@context": "https://schema.org",
+          "@type": "Event",
+          name: event.name,
+          startDate: parseEventDate(event.date).toISOString(),
+          eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+          eventStatus: "https://schema.org/EventScheduled",
+          description: event.description,
+          url: eventUrl,
+          location: {
+              "@type": "Place",
+              name: event.location,
+              address: event.address,
+          },
+          organizer: {
+              "@type": "Organization",
+              name: seoDefaults.siteName,
+              url: seoDefaults.siteUrl,
+          },
+          ...(event.eventLink ? { sameAs: event.eventLink } : {}),
+      }
     : null;
 
 usePageSeo({

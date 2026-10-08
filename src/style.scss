@@ -7,6 +7,7 @@
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #f2d38aff;
+    --accent-lighter: rgb(236, 223, 192);
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
@@ -15,6 +16,7 @@
     --headingFont: "Cinzel", Roboto, sans-serif;
     --altSectionBg: hsl(230deg 14.06% 25.1%);
     --fc-button-bg-color: var(--accent);
+    --border-radius: 8px;
 
     letter-spacing: 0.18px;
     color-scheme: light dark;

@@ -9,13 +9,15 @@
             fetchpriority="high"
         />
         <div class="overlay">
-            <div class="hero-text">
-                <h1 style="color: white">
-                    Minotur <br />
-                    <span style="text-transform: lowercase; font-size: 0.8em">
-                        Chojnickie Stowarzyszenie Fantastyki i Popkultury
-                    </span>
-                </h1>
+            <div class="bottom-wrap">
+                <div class="hero-text">
+                    <h1 style="color: white">
+                        Minotur <br />
+                        <span style="text-transform: lowercase; font-size: 0.8em">
+                            Chojnickie Stowarzyszenie Fantastyki i Popkultury
+                        </span>
+                    </h1>
+                </div>
             </div>
         </div>
     </div>
@@ -53,7 +55,7 @@ import Picture from "./utilities/Picture.vue";
         width: 100%;
         height: 100%;
 
-        .hero-text {
+        .bottom-wrap {
             position: absolute;
             bottom: 2rem;
             left: 1rem;

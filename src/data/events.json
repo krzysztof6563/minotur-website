@@ -1,5 +1,49 @@
 [
     {
+        "slug": "halloween-w-komnacie-kosci",
+        "name": "Halloween w Komnacie Kości",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-10-30 18:00",
+        "eventLink": null,
+        "type": "other",
+        "description": "<p>Szczegóły niedługo!</p>",
+        "tags": [
+            "Obowiązują zapisy",
+            "Wydarzenie całodniowe"
+        ]
+    },
+    {
+        "slug": "otwarte-sesje-rpg-z-minoturem-15",
+        "name": "Otwarte Sesje RPG z Minoturem #15",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-10-23 15:00",
+        "eventLink": null,
+        "type": "rpg",
+        "description": "<p>Szczegóły niedługo!</p>",
+        "tags": [
+            "Dla początkujących",
+            "Bez zapisów",
+            "RPG"
+        ]
+    },
+    {
+        "slug": "turniej-re-Volt",
+        "name": "Turniej Re-Volt",
+        "location": "Komnata Kości",
+        "address": "Cechowa 4, Chojnice",
+        "date": "2026-10-22 19:00",
+        "eventLink": null,
+        "type": "video-games",
+        "description": "<p>Szczegóły niedługo!</p>",
+        "tags": [
+            "Bez zapisów",
+            "Turniej",
+            "Gry cyfrowe"
+        ]
+    },
+    {
         "slug": "otwarte-sesje-rpg-z-minoturem-14",
         "name": "Otwarte Sesje RPG z Minoturem #14",
         "location": "Komnata Kości",
@@ -7,7 +51,12 @@
         "date": "2026-10-10 15:00",
         "eventLink": "https://fb.me/e/btbwgcY2o",
         "type": "rpg",
-        "description": "<p>Już po raz kolejny zapraszamy wszystkich do wspólnego odkrywania gier fabularnych! Nie musisz znać żadnych zasad ani mieć doświadczenia z RPG – wszystko tłumaczymy na miejscu. Nie prowadzimy również zapisów – wystarczy, że przyjdziesz.</p><p>Tym razem przygotowaliśmy dla Was:</p><p>🐉 Dragonbane – klasyczne fantasy pełne niebezpiecznych lochów, niezwykłych stworzeń i bohaterskich przygód. Chwyć za miecz, przygotuj zaklęcia i rusz na wyprawę!</p><p>👻 Stowarzyszenie Łowców Yokai - Walcz z yokai, rozwiązuj mroczne zagadki i odkrywaj tajemnice nawiedzonego świata.</p><p>Niezależnie od tego, czy wolicie epickie przygody w świecie fantasy, czy tajne operacje przeciwko niewyobrażalnym zagrożeniom – znajdziecie coś dla siebie.</p><p>📍 Do zobaczenia w sobotę o 15:00 w @komnatakosci ! 🎲</p>"
+        "description": "<p>Już po raz kolejny zapraszamy wszystkich do wspólnego odkrywania gier fabularnych! Nie musisz znać żadnych zasad ani mieć doświadczenia z RPG – wszystko tłumaczymy na miejscu. Nie prowadzimy również zapisów – wystarczy, że przyjdziesz.</p><p>Tym razem przygotowaliśmy dla Was:</p><p>🐉 Dragonbane – klasyczne fantasy pełne niebezpiecznych lochów, niezwykłych stworzeń i bohaterskich przygód. Chwyć za miecz, przygotuj zaklęcia i rusz na wyprawę!</p><p>👻 Stowarzyszenie Łowców Yokai - Walcz z yokai, rozwiązuj mroczne zagadki i odkrywaj tajemnice nawiedzonego świata.</p><p>Niezależnie od tego, czy wolicie epickie przygody w świecie fantasy, czy tajne operacje przeciwko niewyobrażalnym zagrożeniom – znajdziecie coś dla siebie.</p><p>📍 Do zobaczenia w sobotę o 15:00 w @komnatakosci ! 🎲</p>",
+        "tags": [
+            "Dla początkujących",
+            "Bez zapisów",
+            "RPG"
+        ]
     },
     {
         "slug": "otwarte-sesje-rpg-z-minoturem-13",

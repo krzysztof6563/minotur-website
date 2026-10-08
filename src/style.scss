@@ -224,7 +224,7 @@ table.fc-scrollgrid {
     --radius: 1rem;
     border-radius: var(--radius);
 
-    thead.fc-scrollgrid-section-header > th {
+    thead.fc-scrollgrid-section-header>th {
         border-top-right-radius: var(--radius);
 
         &:last-child {
@@ -241,6 +241,7 @@ table.fc-scrollgrid {
             td:first-child {
                 border-bottom-left-radius: var(--radius);
             }
+
             td:last-child {
                 border-bottom-right-radius: var(--radius);
             }
@@ -280,6 +281,10 @@ img.gallery-img {
     object-fit: cover;
 }
 
-p + ul {
+p+ul {
     margin-top: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }

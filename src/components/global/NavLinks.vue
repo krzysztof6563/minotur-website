@@ -9,8 +9,10 @@ const props = defineProps({
 
 <template>
     <ul>
-        <li><RouterLink to="/" @click="props.onLinkClick?.()">Strona główna</RouterLink></li>
-        <li><RouterLink :to="{ path: '/', hash: '#o-nas' }" @click="props.onLinkClick?.()">O nas</RouterLink></li>
+        <!-- <li><RouterLink to="/" @click="props.onLinkClick?.()">Strona główna</RouterLink></li> -->
+        <li>
+            <RouterLink :to="{ path: '/', hash: '#o-nas' }" @click="props.onLinkClick?.()">O nas</RouterLink>
+        </li>
         <li>
             <RouterLink :to="{ path: '/', hash: '#wydarzenia' }" @click="props.onLinkClick?.()">
                 Wydarzenia
